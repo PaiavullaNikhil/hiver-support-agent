@@ -1536,6 +1536,20 @@ hiver-support-agent/
 
 # 26. Environment Setup
 
+## Git LFS Prerequisite
+
+The precomputed FAISS retrieval index is stored with Git LFS. Install Git LFS before cloning this repository:
+
+```powershell
+git lfs install
+```
+
+After cloning, download the LFS-managed files if they were not checked out automatically:
+
+```powershell
+git lfs pull
+```
+
 Python 3.11+ is recommended.
 
 Create the virtual environment:
