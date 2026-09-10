@@ -1,0 +1,2 @@
+data/processed/retrieval_index/apple_support.faiss filter=lfs diff=lfs merge=lfs -text
+data/processed/retrieval_index/retrieval_corpus.csv filter=lfs diff=lfs merge=lfs -text
