@@ -1,0 +1,40 @@
+{
+  "judge_summary": {
+    "examples": 30,
+    "relevance_mean": 4.966666666666667,
+    "grounding_mean": 5.0,
+    "helpfulness_mean": 4.766666666666667,
+    "overall_quality_mean": 4.766666666666667,
+    "unsupported_claim_rate": 0.0
+  },
+  "human_judge_agreement": {
+    "examples": 10,
+    "agreement": {
+      "relevance": {
+        "examples": 10,
+        "exact_agreement": 1.0,
+        "mean_absolute_difference": 0.0
+      },
+      "grounding": {
+        "examples": 10,
+        "exact_agreement": 0.8,
+        "mean_absolute_difference": 0.2
+      },
+      "helpfulness": {
+        "examples": 10,
+        "exact_agreement": 0.7,
+        "mean_absolute_difference": 0.4
+      },
+      "overall_quality": {
+        "examples": 10,
+        "exact_agreement": 0.5,
+        "mean_absolute_difference": 0.5
+      },
+      "unsupported_claim": {
+        "examples": 10,
+        "exact_agreement": 1.0,
+        "mean_absolute_difference": 0.0
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "golden_examples": 200,
+  "num_intents": 12,
+  "accuracy": 0.495,
+  "macro_f1": 0.4269559217026628,
+  "weighted_f1": 0.4681555822420452,
+  "baselines": [
+    {
+      "model": "TF-IDF + Linear SVM",
+      "accuracy_mean": 0.45,
+      "accuracy_std": 0.03535533905932737,
+      "macro_f1_mean": 0.3506109386256445,
+      "macro_f1_std": 0.022855916381294732,
+      "weighted_f1_mean": 0.41356643764732004,
+      "weighted_f1_std": 0.025399970214809907
+    },
+    {
+      "model": "TF-IDF + Logistic Regression",
+      "accuracy_mean": 0.45,
+      "accuracy_std": 0.02738612787525829,
+      "macro_f1_mean": 0.35246556548027136,
+      "macro_f1_std": 0.030822247832340333,
+      "weighted_f1_mean": 0.4217076852885676,
+      "weighted_f1_std": 0.02530013597441368
+    },
+    {
+      "model": "TF-IDF + Complement NB",
+      "accuracy_mean": 0.41500000000000004,
+      "accuracy_std": 0.02549509756796392,
+      "macro_f1_mean": 0.29535944329422587,
+      "macro_f1_std": 0.018329198513710572,
+      "weighted_f1_mean": 0.3566754658385093,
+      "weighted_f1_std": 0.023149070001090604
+    },
+    {
+      "model": "Word + Character TF-IDF + Linear SVM",
+      "accuracy_mean": 0.49499999999999994,
+      "accuracy_std": 0.05099019513592785,
+      "macro_f1_mean": 0.4048928677102051,
+      "macro_f1_std": 0.07517685648659779,
+      "weighted_f1_mean": 0.45436027027667897,
+      "weighted_f1_std": 0.052158179520266294
+    },
+    {
+      "model": "Majority Baseline",
+      "accuracy_mean": 0.175,
+      "accuracy_std": 0.0,
+      "macro_f1_mean": NaN,
+      "macro_f1_std": NaN,
+      "weighted_f1_mean": NaN,
+      "weighted_f1_std": NaN
+    }
+  ],
+  "confusion_pairs": [
+    {
+      "true_intent": "ios_update",
+      "predicted_intent": "display_input",
+      "count": 6
+    },
+    {
+      "true_intent": "connectivity",
+      "predicted_intent": "display_input",
+      "count": 5
+    },
+    {
+      "true_intent": "apple_services",
+      "predicted_intent": "display_input",
+      "count": 4
+    },
+    {
+      "true_intent": "display_input",
+      "predicted_intent": "ios_update",
+      "count": 4
+    },
+    {
+      "true_intent": "apple_services",
+      "predicted_intent": "connectivity",
+      "count": 4
+    },
+    {
+      "true_intent": "apple_services",
+      "predicted_intent": "apps_app_store",
+      "count": 4
+    },
+    {
+      "true_intent": "connectivity",
+      "predicted_intent": "apple_services",
+      "count": 3
+    },
+    {
+      "true_intent": "audio",
+      "predicted_intent": "display_input",
+      "count": 3
+    },
+    {
+      "true_intent": "ios_update",
+      "predicted_intent": "connectivity",
+      "count": 3
+    },
+    {
+      "true_intent": "display_input",
+      "predicted_intent": "apple_services",
+      "count": 3
+    }
+  ]
+}
